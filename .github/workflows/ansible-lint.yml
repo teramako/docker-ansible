@@ -14,6 +14,6 @@ jobs:
             *.yml
           override-deps: |
             ansible==2.9
-            ansible-lint==4.2.0
-          args: ""
+            ansible-lint==4.3.7
+          args: "--exclude=docker-compose.yml"
 
