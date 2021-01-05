@@ -1,7 +1,7 @@
 version: '3'
 services:
   ansible:
-    container_name: ansible 
+    container_name: ansible
     hostname: ansible
     build: docker/ansible
     tty: true
@@ -9,7 +9,7 @@ services:
     privileged: true
     volumes:
       - .:/var/data
-  
+
   target01:
     container_name: target01
     hostname: target01
